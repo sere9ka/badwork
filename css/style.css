@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: linear;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+
+/*подключение шрифта*/
+@font-face{
+    font-family: Roboto;
+    src: url();
+}
+html{
+    font-family: 'Roboto' ,sans-serif;
+}
+
+.block{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    max-width: 1100;
+    margin: auto;
+}
+.shadow{
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.3), -5px -10px -20px rgba(255, 255, 255, 0.5);
+}
+
+
+.heder{
+    justify-content: space-between;
+}
+.logo__header{
+    font-size: 36px;
+}
+.heder__mob{
+    display:flex;
+    justify-content: space-between;
+    max-width: 500;
+    width: 100%;
+}
+.promo__text{
+display:flex;
+justify-content: space-between;
+width: 100%;
+flex-wrap: wrap;
+}
+.promo__text__box{
+    max-width: 500px;
+    width: 100%;
+}
+
+.warpper{
+    height: 300px;
+    margin: auto 20px;
+    position: relative;
+    width: 700px;
+}
+.slider{
+    background-color: rosybrown;
+    height: inherit;
+    overflow: hidden;
+    position: relative;
+    width: inherit;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.warpper > input {
+    display: none;
+}
